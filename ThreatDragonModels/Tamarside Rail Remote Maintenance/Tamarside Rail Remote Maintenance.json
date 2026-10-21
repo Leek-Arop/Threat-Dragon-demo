@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "0.1",
+  "released_at": "2026-10-21",
+  "summary": {
+    "title": "Tamarside Rail Remote Maintenance",
+    "owner": "Leek Deng",
+    "description": "Classroom exercise modelling remote maintenance of Tamarside Rail level crossings.\n\nEngineers connect through a VPN remote access gateway to a maintenance server using RDP. The server communicates with crossing controllers through rural 4G routers. Suppliers also access the gateway using a shared account. The maintenance server stores configuration and firmware files.\n\nThe model will identify threats to access, configuration changes and availability. Constraints include unreliable 4G coverage and safety-certified controllers whose firmware changes require re-approval.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Tamarside Remote Maintenance",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data flows and trust boundaries for engineer and supplier access to level crossing maintenance systems."
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "DaTS Y4",
+    "threatTop": 0
+  }
+}
